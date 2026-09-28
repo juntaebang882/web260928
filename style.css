@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+html {
+  font-family: "Hi Melody", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+footer {
+  font-size: 0.7rem;
+}
+article{
+  display: inline-block;
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  border: 3px solid yellow;
+  background-color: lightgray;
+}
+
+article:first-child{
+  background-color: gray;
+}
+
+article:last-child{
+  background-color: lightyellow;
+}
+article  div {
+  width: 250px;
+  border: 2px solid black;
+  padding: 50px 10px;
+  margine: 10px;
+  line-height: 1.6;
+}
+article div::before{
+  content: '[영화소개] ';
+  font-weight: bold;
+  font-family: "Nanum Pen Script",san-serif;
+}
+article div::after{
+  content: '(생략)';
+  font-style: italic;
+  color: lightgreen;
+}
+h3{
+  color: hotpink;
+  font-variant: small-caps;
+}
+
+h5{
+  background-color: lightgray;
+}
+a:link {
+  text-decoration: underline;
+}
+a:hover {
+  /*text-decoration: underline;*/
+  background-color: blue;
+}
+a:active {
+  background-color: hotpink;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: orange;
+}
+div#header_title {
+  display: block;
+  width: 100vw;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans Korean"
+  font-weight: bold;
+  font-size: 3rem;
+}
